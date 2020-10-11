@@ -1,5 +1,5 @@
 # jQuery plugin for collecting elements.
-Simple plugin for animating elements with the random effect. Based on the jQuery animate function.
+A simple plugin for assembling elements into a mosaic in random order. Based on the jQuery animate function.
 
 ## Demo
 
