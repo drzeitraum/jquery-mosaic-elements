@@ -1,6 +1,5 @@
 #mosaic {
     position: relative;
-    overflow: hidden;
 }
 
 #mosaic .mosaic-item {

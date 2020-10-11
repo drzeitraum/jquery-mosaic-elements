@@ -1,9 +1,9 @@
 html, body, div {
     height: 100%;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
-
 #mosaic {
     display: table;
     height: 100%;
@@ -12,9 +12,9 @@ html, body, div {
 }
 
 #mosaic .mosaic-item {
-    margin: 1px;
     height: 100%;
     display: table;
+    border: 1px solid white;
 }
 
 #mosaic .mosaic-item .h1 {
