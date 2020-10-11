@@ -3,9 +3,9 @@ Plugin for animating elements with the random effect.
 
 ## Demo
 
-* [default:](https://kotlyarov.us/jquery-mosaic-elements/?default=1) - options by default;
+* [default](https://kotlyarov.us/jquery-mosaic-elements/?default=1) - options by default;
 * [constant height](https://kotlyarov.us/jquery-mosaic-elements/?ch=1) - options with constant height and without masonry effect: 
-* [crazy options](https://kotlyarov.us/jquery-mosaic-elements/?cp=1) - various settings.
+* [crazy options](https://kotlyarov.us/jquery-mosaic-elements/?co=1) - various settings.
 
 ## Options
 
@@ -20,7 +20,7 @@ Plugin for animating elements with the random effect.
 'masonry_shift': 0 // correction for calculating the transition to the next column in the container
 ```
 
-## Init
+## Include
 
 ```html
 <link rel="stylesheet" href="src/style.css"/>
