@@ -1,8 +1,8 @@
 /**
  * mosaicElements - plugin for animating elements
  * @author Vyacheslav K. <vyach.kotlyarov@gmail.com>
+ * @link https://github.com/drzeitraum/jquery-mosaic-elements
  */
-
 (function ($) {
 
         jQuery.fn.mosaicElements = function (opt) {
@@ -11,8 +11,8 @@
             opt = $.extend({
                 'container': '#mosaic', // attribute for the main container for the elements
                 'elements': '.mosaic-item', // attribute for the elements
-                'rotate_min': -180, // minimum of ratation from in degree
-                'rotate_max': 180, // maximum of ratation to in degree
+                'rotate_min': -180, // minimum of rotation from in degree
+                'rotate_max': 180, // maximum of rotation to in degree
                 'duration_min': 60, // minimum of duration from in px
                 'duration_max': 600, // maximum of duration to in px
                 'masonry': true, // enable masonry effect
@@ -75,7 +75,7 @@
                         elements_height = top = 0;
                         col++;
                     } else {
-                        var top = elements_height;
+                         top = elements_height;
                     }
                     left = elements_width * col;
                 }

@@ -29,7 +29,7 @@ $colors = [
     <link href="favicon.png" type="image/x-icon" rel="icon"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="demo.css"/>
-    <link rel="stylesheet" href="../src/style.css"/>
+    <link rel="stylesheet" href="src/style.css"/>
 
 </head>
 <body>
@@ -46,16 +46,16 @@ $colors = [
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
-<script src="../src/jquery.mosaic-elements.js"></script>
+<script src="src/jquery.mosaic-elements.js"></script>
 
 
 <script>
     $('body').mosaicElements({
         // change options
-        'rotate_min': -900, // minimum of rotation from in degree
-        'rotate_max': 900,
-        'duration_min': 180, // minimum of duration from in px
-        'duration_max': 900, // maximum of duration to in px
+        // 'rotate_min': -900, // minimum of rotation from in degree
+        // 'rotate_max': 900,
+        // 'duration_min': 180, // minimum of duration from in px
+        // 'duration_max': 900, // maximum of duration to in px
         //'masonry': false,
     });
 </script>
