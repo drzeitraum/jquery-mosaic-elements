@@ -1,10 +1,10 @@
-# jQuery plugin for collecting elements
-Plugin for animating elements with the random effect.
+# jQuery plugin for collecting elements.
+Simple plugin for animating elements with the random effect. Based on the jQuery animate function.
 
 ## Demo
 
-* [default](https://kotlyarov.us/jquery-mosaic-elements/?default=1) - options by default;
-* [constant height](https://kotlyarov.us/jquery-mosaic-elements/?ch=1) - options with constant height and without masonry effect: 
+* [default options](https://kotlyarov.us/jquery-mosaic-elements/?default=1) - options by default;
+* [constant height](https://kotlyarov.us/jquery-mosaic-elements/?ch=1) - options with constant height and disabled masonry effect;
 * [crazy options](https://kotlyarov.us/jquery-mosaic-elements/?co=1) - various settings.
 
 ## Options
