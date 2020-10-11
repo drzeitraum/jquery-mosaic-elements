@@ -39,19 +39,17 @@ if ($_GET['co']) {
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="demo.css"/>
     <link rel="stylesheet" href="src/style.css"/>
-
 </head>
 <body>
 
 <? if ($_GET['default']) { ?>
     <div id="mosaic" class="row">
         <? for ($i = 0; $i < 60; $i++) { ?>
-            <div href="#" target="_blank" class="mosaic-item col-md-1"
+            <div class="mosaic-item col-md-1"
                  style="background-color: #<?= $colors[rand(1, 20)] ?>; height: <?= rand(150, 300) ?>px">
                 <span class="h1"><?= $i ?></span>
             </div>
         <? } ?>
-
     </div>
 <? } ?>
 

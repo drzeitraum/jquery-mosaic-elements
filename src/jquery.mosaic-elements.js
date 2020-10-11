@@ -15,7 +15,7 @@
                 'rotate_max': 180, // maximum of rotation to in degree
                 'duration_min': 60, // minimum of duration from in px
                 'duration_max': 600, // maximum of duration to in px
-                'masonry': true, // enable masonry effect
+                'masonry': true, // masonry effect
                 'masonry_shift': 0 // correction for calculating the transition to the next column in the container
             }, opt);
 
