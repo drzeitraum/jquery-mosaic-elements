@@ -1,0 +1,38 @@
+#mosaic {
+    position: relative;
+    overflow: hidden;
+}
+
+.mosaic-item {
+    transition: 0.5s;
+    opacity: 0;
+    text-align: center;
+}
+
+.mosaic-item img {
+    max-width: 100%;
+}
+
+/* masonry false */
+.mosaic-item.mosaic-constant {
+    width: 111px;
+    height: 57px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    padding: 5px 32px;
+    margin-top: 1px;
+}
+
+.mosaic-item.mosaic-constant:nth-child(9n+1) {
+    margin-right: 0;
+}
+
+/* masonry true */
+.mosaic-item.mosaic-masonry {
+    width: 85px;
+    margin: 2px;;
+    padding: 5px 32px;
+}
+
+

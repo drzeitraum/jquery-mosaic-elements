@@ -1,0 +1,25 @@
+html, body, div {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#mosaic {
+    display: table;
+    height: 100%;
+    margin: auto;
+    width: 100%;
+}
+
+#mosaic .mosaic-item {
+    margin: 1px;
+    height: 100%;
+    display: table;
+}
+
+#mosaic .mosaic-item .h1 {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+}
