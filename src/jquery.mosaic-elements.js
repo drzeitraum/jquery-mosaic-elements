@@ -16,7 +16,8 @@
                 'duration_min': 60, // minimum of duration from in px
                 'duration_max': 600, // maximum of duration to in px
                 'masonry': true, // masonry effect
-                'masonry_shift': 0 // correction for calculating the transition to the next column in the container
+                'masonry_shift': 0, // correction for calculating the transition to the next column in the container
+                'transition': 500 // css transition in ms
             }, opt);
 
             // random integer
@@ -36,16 +37,20 @@
                     $(opt.elements).css({
                         'opacity': 1
                     });
-                }, 1500)
+                }, opt.transition + opt.transition/2)
             }
 
             // styles
             if (opt.masonry) {
-                $(opt.elements).css('position', 'absolute');
+                $(opt.elements).css({
+                    'position': 'absolute',
+                    'transition': opt.transition / 1000 + 's'
+                });
             } else {
                 $(opt.elements).css({
                     'position': 'relative',
-                    'float': 'left'
+                    'float': 'left',
+                    'transition': opt.transition / 1000 + 's'
                 });
             }
             var arr_property = ['top', 'right', 'bottom', 'left']; // indent for a random
@@ -75,7 +80,7 @@
                         elements_height = top = 0;
                         col++;
                     } else {
-                         top = elements_height;
+                        top = elements_height;
                     }
                     left = elements_width * col;
                 }
